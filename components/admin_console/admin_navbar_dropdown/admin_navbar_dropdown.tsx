@@ -86,7 +86,7 @@ class AdminNavbarDropdown extends React.PureComponent<Props> {
         let commercialSupport = (
             <Menu.ItemExternalLink
                 onClick={() => trackEvent('admin', 'click_administrators_support')}
-                url='https://about.mattermost.com/commercial-support/'
+                url='https://about.mattermost.com/commercial-suppor/'
                 text={formatMessage({id: 'admin.nav.commercialSupport', defaultMessage: 'Commercial Support'})}
             />
         );
